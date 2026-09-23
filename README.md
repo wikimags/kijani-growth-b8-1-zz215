@@ -21,6 +21,8 @@ Exposure validation must use the Statsig SDK and actual ingestion evidence. Loca
 
 ## Connector preflight blocker
 
+Update, September 23 at 21:26 EAT: experiment creation succeeded through the Statsig dashboard in external Chrome. The diagnostic experiment `b8_1_dashboard_creation_check` is **Not Started** and must be excluded from the scored workflow. It uses the dashboard's default setup values and has not been launched. The scored target `b8_1_guided_onboarding` remains uncreated. Earlier zero-experiment evidence describes the original baseline, before this separate diagnostic draft was added. This dashboard success does not resolve the connector's read-only restriction.
+
 The key successfully created metrics and the gate through the Console API. The MCP endpoint reads the correct project. However, `Get_Context` reports `canWrite: true`, `mcpReadOnly: false` and `canManageKeys: false`, while `Search_Tools` returns `read_only` and `Get_Tool_Schema` refuses `Create_Experiment`. This is a setup finding, not a scored model failure. Reconnect the actual test platform to this project and confirm write tools before testing. Do not expand key-management permissions or disable review controls to work around it. The created key is project-scoped, not a verified personal OAuth key. Target Apps are unavailable on this plan and are not required.
 
 ## Evidence and traffic
