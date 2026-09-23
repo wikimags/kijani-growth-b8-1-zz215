@@ -1,0 +1,243 @@
+{
+  "project_id": "H7zq0iHv0scPEXRMGF1C3",
+  "mode": "baseline",
+  "synthetic": true,
+  "captured_at": "2026-09-23T17:32:13.572Z",
+  "rows": [
+    {
+      "userID": "b8_1_baseline_0001",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0002",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0003",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0004",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0005",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0006",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0007",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0008",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0009",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0010",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0011",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0012",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0013",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0014",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0015",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0016",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0017",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0018",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0019",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0020",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0021",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0022",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0023",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0024",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0025",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0026",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0027",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0028",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0029",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_baseline_0030",
+      "eligible": true,
+      "group": null,
+      "variant": "standard",
+      "rule": "3uqApeukhSA2jtSGwyGBph"
+    },
+    {
+      "userID": "b8_1_negative_baseline_existing",
+      "eligible": false,
+      "group": null,
+      "variant": "standard"
+    },
+    {
+      "userID": "b8_1_negative_baseline_unrelated",
+      "eligible": false,
+      "group": null,
+      "variant": "standard"
+    }
+  ],
+  "events": {
+    "b8_1_workspace_created": 15,
+    "b8_1_help_requested": 6,
+    "b8_1_onboarding_error": 3
+  },
+  "staging_gate": false,
+  "flush": {
+    "isSuccess": true
+  },
+  "groups": {
+    "not_enrolled": 30
+  },
+  "note": "SDK evaluation and successful event submission. Confirm ingestion separately in Statsig Events Explorer or Exposure Stream. Synthetic outcomes cannot establish experiment lift."
+}

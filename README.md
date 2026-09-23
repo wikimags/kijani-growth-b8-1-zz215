@@ -1,40 +1,25 @@
 # Kijani Growth Lab B8-1
 
-**Fixture prepared. Do not start the scored run until connector write access is confirmed.**
+Source materials for the Statsig connector benchmark, prepared September 23, 2026. The task is to create and launch a small growth experiment through the connector, then verify exposure logging. This repository contains synthetic data only. No scored experiment was created or launched while preparing this pack.
 
-Statsig project: https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/home
+- [Source guide, current before screenshots and exports](source-pack/README.md)
+- [Prompt, expected result and keywords](TEST-PROMPT.md)
+- [Scenario and intended configuration](fixture-plan.json)
+- [Statsig project](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/home)
+- [Download source pack](B8-1_Run1_Statsig_SourceMaterials.zip)
 
-Project created and renamed to Kijani Growth Lab B8-1 on September 23, 2026. This is an isolated synthetic setup. The existing mico1 connectors project is not being changed.
+The intended experiment, b8_1_guided_onboarding, remains absent. One separate dashboard diagnostic, b8_1_dashboard_creation_check, exists in Not Started status and must remain untouched. Historical empty-experiment screenshots in evidence/Run1-before predate that diagnostic; use the fresh experiment-list screenshot in source-pack for the current before state.
 
-The planned experiment compares standard onboarding with a three-step checklist in a fictional team-planning SaaS product. Launch allocation is 5% of eligible synthetic users, split 50/50 between Control (`onboarding_variant=standard`) and Guided checklist (`onboarding_variant=guided_checklist`). Each group gets roughly 2.5% of eligible users; the other 95% are outside the experiment and are not control participants. The model should create `b8_1_guided_onboarding` during the scored run. The experiment does not exist yet.
+The source data includes one eligibility gate, three custom user-based metrics and 24 received baseline events. The gate limits eligibility to synthetic B8-1 new users in the production SDK environment. The experiment should allocate 5% of that cohort, split equally between standard onboarding and a guided checklist. Gate eligibility at 100% does not mean experiment allocation at 100%.
 
-Exposure validation must use the Statsig SDK and actual ingestion evidence. Local output or synthetic event files alone do not establish that Statsig logged an experiment exposure. No experiment winner or production growth result can be inferred from this synthetic smoke test.
+## Known connector limitations
 
-## Verified inputs
+The named statsig-kijani connection reached Kijani but returned: "MCP tool Create_Experiment is unavailable because this user has read-only MCP access." Separately, the Statsig plugin exposed in the preparation chat returned project 2OZ8YjwbrfFIWk2bSRhu03, named mico1 connectors. That is not the test project. These are different connection paths and must not be treated as interchangeable. The scored run should check its own connection and report any limitation. Browser creation or direct Console API writes cannot stand in for connector success.
 
-- [Eligibility gate](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/gates/b8_1_synthetic_new_users): `test_fixture=b8_1`, `lifecycle=new`, production SDK environment. The gate's 100% pass rule defines eligibility, not experiment allocation.
-- [Primary metric](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_workspace_activation/event_user): `b8_1_workspace_activation`, unique users logging `b8_1_workspace_created`, higher is better.
-- [Error guardrail](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_onboarding_error_rate/event_user): unique users logging `b8_1_onboarding_error`, lower is better.
-- [Help guardrail](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_help_request_rate/event_user): unique users logging `b8_1_help_requested`, lower is better.
-- [Events](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/events): 24 baseline events received, consisting of 15 workspace creations, 3 errors and 6 help requests. Thirty eligible synthetic users, two ineligible production users and one staging user were checked. All three negative cases were rejected. The event stream shows September 23, 2026, 20:32:15 EAT.
-- [Experiments](https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/experiments): zero before testing. Three custom metrics plus seven default metrics exist.
+## Exposure check after a successful connector launch
 
-## Connector preflight blocker
+On this prepared Windows machine, open C:/Users/wikim/Documents/Codex/statsig-b8-1 and run ./run-traffic.ps1 -Mode smoke -Run Run1-after. This evaluates 1,000 eligible synthetic users, two ineligible production users and one staging user using the official SDK. It generates automatic SDK exposure events and synthetic outcomes, then saves actual assignments and flush status. It does not create or launch experiments. Confirm receipt separately in Statsig; local output and a successful flush alone do not prove ingestion. Exact enrolled and group counts vary, and this sample cannot establish business lift.
 
-Update, September 23 at 21:26 EAT: experiment creation succeeded through the Statsig dashboard in external Chrome. The diagnostic experiment `b8_1_dashboard_creation_check` is **Not Started** and must be excluded from the scored workflow. It uses the dashboard's default setup values and has not been launched. The scored target `b8_1_guided_onboarding` remains uncreated. Earlier zero-experiment evidence describes the original baseline, before this separate diagnostic draft was added. This dashboard success does not resolve the connector's read-only restriction.
+On another machine, install dependencies with npm ci, securely provide the project's SDK key through STATSIG_SERVER_SECRET, and run node traffic.cjs smoke. Credentials are not included in this repository. The Windows wrapper uses locally encrypted credentials and is not portable to another Windows account.
 
-The key successfully created metrics and the gate through the Console API. The MCP endpoint reads the correct project. However, `Get_Context` reports `canWrite: true`, `mcpReadOnly: false` and `canManageKeys: false`, while `Search_Tools` returns `read_only` and `Get_Tool_Schema` refuses `Create_Experiment`. This is a setup finding, not a scored model failure. Reconnect the actual test platform to this project and confirm write tools before testing. Do not expand key-management permissions or disable review controls to work around it. The created key is project-scoped, not a verified personal OAuth key. Target Apps are unavailable on this plan and are not required.
-
-## Evidence and traffic
-
-Connection update: local Codex now has an enabled, authenticated OAuth connection named `statsig-kijani`. Authentication succeeded, but write-tool availability still needs verification in a refreshed Codex session. See [connection troubleshooting](evidence/Run1-before/B8-1_Statsig_Connection_Troubleshooting.md). This does not yet clear the preflight blocker or establish Claude Code access.
-
-The [before evidence](evidence/Run1-before/) includes source configuration JSON, screenshots, received event rows, SDK checks and the exact MCP contradiction. Screenshots retain the original browser viewport; the CSV and JSON contain the complete field-level details. Statsig links require project access. Public files contain only synthetic data. Credentials are encrypted for the Windows account under `.private`, excluded from sharing.
-
-After launch, open `C:/Users/wikim/Documents/Codex/statsig-b8-1` and run `./run-traffic.ps1 -Mode smoke -Run Run1-after`. This uses the official SDK to evaluate 1,000 eligible users, two ineligible production users and one staging user. It logs real SDK exposures and synthetic outcomes, reports actual assignments, and flushes events. Confirm ingestion separately in Statsig's exposure stream for both groups. Do not require exactly 50 enrolled users or an exact equal sample split. The script refuses to check an experiment that does not exist.
-
-On another machine, install with `npm ci`, securely provide this project's SDK key through `STATSIG_SERVER_SECRET`, and run `node traffic.cjs smoke`. Never paste keys into chat or public files. This is synthetic instrumentation testing, not an actual product UI launch or evidence of business lift.
-
-Before Run 2, preserve Run 1 evidence and restore an equivalent starting state with a fresh analysis period and distinguishable traffic IDs, or prepare a separate isolated project. Do not reuse Run 1 exposures as Run 2 evidence. Label each run separately.
-
-See [TEST-PROMPT.md](TEST-PROMPT.md) for the draft prompt and expected result. Official references: [MCP setup](https://docs.statsig.com/integrations/mcp/manual-setup) and [Node SDK](https://docs.statsig.com/server-core/node-core).
+For Run 2, preserve Run 1 output and prepare an equivalent starting state with distinct traffic IDs or a separate isolated project. Do not label old baseline or Run 1 exposure records as Run 2 evidence. Capture the actual post-run state before resetting anything.

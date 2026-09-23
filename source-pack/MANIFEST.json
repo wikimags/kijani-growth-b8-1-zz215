@@ -1,0 +1,60 @@
+{
+  "task": "B8-1",
+  "run": "Run1 before",
+  "pack_created_utc": "2026-09-23T19:06:30.6344776Z",
+  "project_id": "H7zq0iHv0scPEXRMGF1C3",
+  "screenshots": "Actual Statsig Chrome captures; no image reconstruction",
+  "baseline_date_utc": "2026-09-23T17:32:15Z",
+  "baseline_event_rows": 24,
+  "scored_experiment_created": false,
+  "files": [
+    {
+      "name": "B8-1_Run1_Statsig_Before_ExperimentList_01.png",
+      "sha256": "33B330DF4984F31C7ABCF56F7F2866E62CF40876746D82712DE7BCA8F2CD9B67"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_BaselineSDK.json",
+      "sha256": "58C492D1604CAA3E71FFD08994BB3A75260C5CE879780E94DF50520C553BB7A1"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_EligibilityGate_02.png",
+      "sha256": "0B6D540968BE466D6477F0940BEFF29C04490D7B3B3F76F87D1841ECF0E48E65"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_ErrorGuardrail_04.png",
+      "sha256": "833B1FDE11657E005B15988388F5F46A9DE7102D8A346636CF228718D2338BBC"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_EventStream_06.png",
+      "sha256": "EF642121E923A7B25496A07E2D7D0CA45C5485C33F683A161E76071C8C4BEF22"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_experiments.json",
+      "sha256": "DD2A33A8C3B22A086098E77AF2A3BEED74D5F175073D7C8A2272479CAEFFA6BC"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_gates.json",
+      "sha256": "938799AC81A96437C9E2E0DC05EBFA9C759128F71D78A220AB371D024FE58AE5"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_HelpGuardrail_05.png",
+      "sha256": "FC790039504815694E70988519DFBABBBDB00AEF5D04195EA7F32D53932CC2DB"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_metrics.json",
+      "sha256": "4F95EF892F3A3989338B3774BC96A4711C0C67C047732FD5352215D113936D51"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_PrimaryMetric_03.png",
+      "sha256": "6B487294E3B29F201E32E75D4E082FEA6E2FE03527FB0E9117FC62DA4A9E69B2"
+    },
+    {
+      "name": "B8-1_Run1_Statsig_InputData_ReceivedEvents.csv",
+      "sha256": "9FAB4345A320985AB43109A3F74774E8DE3F25D2A28E6257FC2647424EF4EA53"
+    },
+    {
+      "name": "README.md",
+      "sha256": "2BFA7C573C4391E7D44BAA37B7937753BBD0EA78F4FA2EEF9382619B53C9BFEF"
+    }
+  ]
+}

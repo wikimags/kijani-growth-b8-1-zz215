@@ -1,0 +1,189 @@
+{
+  "message": "Experiments listed successfully.",
+  "data": [
+    {
+      "id": "b8_1_dashboard_creation_check",
+      "name": "b8_1_dashboard_creation_check",
+      "description": "",
+      "idType": "userID",
+      "lastModifierID": "4cMJg5FywybMqoJmRTVt8F",
+      "lastModifiedTime": 1790187996972,
+      "lastModifierName": "Wycliffe  Magani",
+      "lastModifierEmail": "zz215@expert.micro1.ai",
+      "creatorID": "4cMJg5FywybMqoJmRTVt8F",
+      "createdTime": 1790187996590,
+      "creatorName": "Wycliffe  Magani",
+      "creatorEmail": "zz215@expert.micro1.ai",
+      "targetApps": [],
+      "holdoutIDs": [],
+      "tags": [],
+      "secondaryIDType": null,
+      "identityResolutionSource": null,
+      "owner": {
+        "ownerID": "4cMJg5FywybMqoJmRTVt8F",
+        "ownerType": "USER",
+        "ownerName": "Wycliffe  Magani",
+        "ownerEmail": "zz215@expert.micro1.ai"
+      },
+      "status": "setup",
+      "launchedGroupID": null,
+      "startTime": null,
+      "endTime": null,
+      "decisionTime": null,
+      "salt": "2374ccf6-811c-4458-b817-828d2c9dd2ab",
+      "restartReason": null,
+      "isPromptExperiment": false,
+      "isTemplate": false,
+      "allowOverridesInPulse": false,
+      "excludePausedExposuresAndEvents": false,
+      "defaultImpactMultiplier": 1,
+      "bonferroniPrimaryMetricWeight": 0.5,
+      "defaultSPRTTestDelta": 0.1,
+      "defaultSPRTControlDelta": 0,
+      "isImpactBankEnabled": false,
+      "reviewsRequiredLocally": false,
+      "isHistoricalCloudExperiment": false,
+      "layerID": null,
+      "hypothesis": "Setup diagnostic only: verify experiment creation directly in external Chrome while MCP reports read-only access. Keep unstarted. Separate from the scored b8_1_guided_onboarding experiment.",
+      "primaryMetrics": [],
+      "primaryMetricTags": [],
+      "secondaryMetrics": [],
+      "secondaryMetricTags": [],
+      "groups": [
+        {
+          "name": "Control",
+          "id": "2q5C80KfxOBmgdXh6lZqWp",
+          "size": 50,
+          "parameterValues": {},
+          "isControl": true,
+          "shipped": false
+        },
+        {
+          "name": "Test",
+          "id": "2q5C82pi06KQzDvcHtV4fr",
+          "size": 50,
+          "parameterValues": {},
+          "isControl": false,
+          "shipped": false
+        }
+      ],
+      "controlGroupID": "2q5C80KfxOBmgdXh6lZqWp",
+      "allocation": 100,
+      "duration": 14,
+      "targetingGateID": "",
+      "defaultConfidenceInterval": "95",
+      "defaultRollupWindow": -1,
+      "defaultChanceToBeatThreshold": 95,
+      "bayesianPriors": [],
+      "sequentialTesting": false,
+      "bonferroniCorrection": false,
+      "bonferroniCorrectionPerMetric": false,
+      "benjaminiHochbergPerVariant": false,
+      "benjaminiHochbergPerMetric": false,
+      "benjaminiPrimaryMetricsOnly": false,
+      "decisionReason": null,
+      "healthChecks": [],
+      "healthCheckStatus": "WAITING",
+      "qualityScore": {
+        "score": 14.285714285714286,
+        "breakdown": [
+          {
+            "criterion": "HYPOTHESIS_LENGTH",
+            "status": "PASSED",
+            "passingDescription": "≥ 50 characters",
+            "score": 14.285714285714286,
+            "weight": 14.285714285714286
+          },
+          {
+            "criterion": "PRIMARY_METRICS_LENGTH",
+            "status": "FAILED",
+            "passingDescription": "1 ≤  n ≤  5",
+            "score": 0,
+            "weight": 14.285714285714286
+          },
+          {
+            "criterion": "COMPARISON_CORRECTION",
+            "status": "FAILED",
+            "passingDescription": "Added",
+            "score": 0,
+            "weight": 14.285714285714286
+          },
+          {
+            "criterion": "GUARDRAIL_METRIC_TAGS",
+            "status": "FAILED",
+            "passingDescription": "tag:★ Core",
+            "score": 0,
+            "weight": 14.285714285714286
+          },
+          {
+            "criterion": "SUFFICIENT_SAMPLE",
+            "status": "FAILED",
+            "passingDescription": "≥ 10000",
+            "score": 0,
+            "weight": 14.285714285714286
+          },
+          {
+            "criterion": "POWER_ANALYSIS",
+            "status": "FAILED",
+            "passingDescription": "Added",
+            "score": 0,
+            "weight": 14.285714285714286
+          },
+          {
+            "criterion": "SEQUENTIAL_TESTING",
+            "status": "FAILED",
+            "passingDescription": "Added",
+            "score": 0,
+            "weight": 14.285714285714286
+          }
+        ]
+      },
+      "isStale": false,
+      "reviewSettings": {
+        "requiredReview": false,
+        "allowedReviewers": []
+      },
+      "analyticsType": "frequentist",
+      "defaultSPRTPowerParam": 80,
+      "defaultSPRTMDE": 0,
+      "sprtBaselineMode": "manual",
+      "sprtMDESettings": [],
+      "summarySections": [
+        {
+          "name": "Hypothesis",
+          "content": "Setup diagnostic only: verify experiment creation directly in external Chrome while MCP reports read-only access. Keep unstarted. Separate from the scored b8_1_guided_onboarding experiment."
+        },
+        {
+          "name": "Setup & Status",
+          "content": "See console for more information"
+        },
+        {
+          "name": "Groups",
+          "content": "See console for more information"
+        },
+        {
+          "name": "Metric Results",
+          "content": "See console for more information"
+        },
+        {
+          "name": "Experiment Notes",
+          "content": null
+        }
+      ],
+      "stratifiedSampling": null,
+      "experimentType": "BASE",
+      "isSidecar": false,
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/experiments/b8_1_dashboard_creation_check",
+      "powerAnalyses": [],
+      "autoLoadToplineImpact": false
+    }
+  ],
+  "pagination": {
+    "itemsPerPage": 100,
+    "pageNumber": 1,
+    "totalItems": 1,
+    "nextPage": null,
+    "previousPage": null,
+    "all": "/console/v1/experiments"
+  }
+}
