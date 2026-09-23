@@ -1,0 +1,325 @@
+{
+  "message": "Metrics listed successfully.",
+  "data": [
+    {
+      "id": "b8_1_help_request_rate::event_user",
+      "name": "b8_1_help_request_rate",
+      "directionality": "decrease",
+      "type": "event_user",
+      "description": "GUARDRAIL: share of exposed users requesting onboarding help. Lower is better. Review any increase; do not automatically scale traffic. Synthetic Kijani B8-1 only.",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [],
+      "creatorName": "CONSOLE API - [masked Console key]",
+      "creatorEmail": null,
+      "createdTime": 1790184617499,
+      "lastModifiedTime": 1790184617698,
+      "lastModifierID": "47ve69D85ZB2UwdiCqz7Y1",
+      "lastModifierName": "CONSOLE API - [masked Console key]",
+      "lastModifierEmail": null,
+      "owner": {
+        "ownerName": "CONSOLE API - [masked Console key]",
+        "ownerID": "47ve69D85ZB2UwdiCqz7Y1",
+        "ownerType": "SDK_KEY"
+      },
+      "lineage": {
+        "events": [
+          "b8_1_help_requested"
+        ],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_help_request_rate/event_user",
+      "unitTypes": [
+        "userID"
+      ],
+      "rollupTimeWindow": "max",
+      "metricEvents": [
+        {
+          "name": "b8_1_help_requested",
+          "criteria": []
+        }
+      ]
+    },
+    {
+      "name": "b8_1_help_requested",
+      "type": "event_count",
+      "unitTypes": [],
+      "id": "b8_1_help_requested::event_count",
+      "directionality": "increase",
+      "lineage": {
+        "events": [
+          "b8_1_help_requested"
+        ],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_help_requested/event_count"
+    },
+    {
+      "name": "b8_1_onboarding_error",
+      "type": "event_count",
+      "unitTypes": [],
+      "id": "b8_1_onboarding_error::event_count",
+      "directionality": "increase",
+      "lineage": {
+        "events": [
+          "b8_1_onboarding_error"
+        ],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_onboarding_error/event_count"
+    },
+    {
+      "id": "b8_1_onboarding_error_rate::event_user",
+      "name": "b8_1_onboarding_error_rate",
+      "directionality": "decrease",
+      "type": "event_user",
+      "description": "GUARDRAIL: share of exposed users with an onboarding error. Lower is better. Review any increase; do not automatically scale traffic. Synthetic Kijani B8-1 only.",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [],
+      "creatorName": "CONSOLE API - [masked Console key]",
+      "creatorEmail": null,
+      "createdTime": 1790184614221,
+      "lastModifiedTime": 1790184614457,
+      "lastModifierID": "47ve69D85ZB2UwdiCqz7Y1",
+      "lastModifierName": "CONSOLE API - [masked Console key]",
+      "lastModifierEmail": null,
+      "owner": {
+        "ownerName": "CONSOLE API - [masked Console key]",
+        "ownerID": "47ve69D85ZB2UwdiCqz7Y1",
+        "ownerType": "SDK_KEY"
+      },
+      "lineage": {
+        "events": [
+          "b8_1_onboarding_error"
+        ],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_onboarding_error_rate/event_user",
+      "unitTypes": [
+        "userID"
+      ],
+      "rollupTimeWindow": "max",
+      "metricEvents": [
+        {
+          "name": "b8_1_onboarding_error",
+          "criteria": []
+        }
+      ]
+    },
+    {
+      "id": "b8_1_workspace_activation::event_user",
+      "name": "b8_1_workspace_activation",
+      "directionality": "increase",
+      "type": "event_user",
+      "description": "PRIMARY: share of exposed users creating a workspace after exposure. Unique user participation, cumulative during the experiment. Synthetic Kijani B8-1 only.",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [],
+      "creatorName": "CONSOLE API - [masked Console key]",
+      "creatorEmail": null,
+      "createdTime": 1790184609253,
+      "lastModifiedTime": 1790184609502,
+      "lastModifierID": "47ve69D85ZB2UwdiCqz7Y1",
+      "lastModifierName": "CONSOLE API - [masked Console key]",
+      "lastModifierEmail": null,
+      "owner": {
+        "ownerName": "CONSOLE API - [masked Console key]",
+        "ownerID": "47ve69D85ZB2UwdiCqz7Y1",
+        "ownerType": "SDK_KEY"
+      },
+      "lineage": {
+        "events": [
+          "b8_1_workspace_created"
+        ],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_workspace_activation/event_user",
+      "unitTypes": [
+        "userID"
+      ],
+      "rollupTimeWindow": "max",
+      "metricEvents": [
+        {
+          "name": "b8_1_workspace_created",
+          "criteria": []
+        }
+      ]
+    },
+    {
+      "name": "b8_1_workspace_created",
+      "type": "event_count",
+      "unitTypes": [],
+      "id": "b8_1_workspace_created::event_count",
+      "directionality": "increase",
+      "lineage": {
+        "events": [
+          "b8_1_workspace_created"
+        ],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/b8_1_workspace_created/event_count"
+    },
+    {
+      "id": "dau::user",
+      "name": "dau",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/dau/user"
+    },
+    {
+      "id": "l7::user",
+      "name": "l7",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/l7/user"
+    },
+    {
+      "id": "mau_28d::user",
+      "name": "mau_28d",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/mau_28d/user"
+    },
+    {
+      "id": "monthly_stickiness::user",
+      "name": "monthly_stickiness",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/monthly_stickiness/user"
+    },
+    {
+      "id": "new_dau::user",
+      "name": "new_dau",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/new_dau/user"
+    },
+    {
+      "id": "wau::user",
+      "name": "wau",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/wau/user"
+    },
+    {
+      "id": "weekly_stickiness::user",
+      "name": "weekly_stickiness",
+      "directionality": "increase",
+      "type": "user",
+      "description": "",
+      "isPermanent": false,
+      "isReadOnly": false,
+      "isHidden": false,
+      "isVerified": false,
+      "tags": [
+        "★ Core"
+      ],
+      "createdTime": 1790184036204,
+      "lastModifiedTime": 1790184036204,
+      "lineage": {
+        "events": [],
+        "metrics": []
+      },
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/metrics/metrics_catalog/weekly_stickiness/user"
+    }
+  ],
+  "pagination": {
+    "itemsPerPage": 100,
+    "pageNumber": 1,
+    "totalItems": 13,
+    "nextPage": null,
+    "previousPage": null,
+    "all": "/console/v1/metrics/list"
+  }
+}
