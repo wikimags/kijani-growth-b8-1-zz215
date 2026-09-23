@@ -1,0 +1,86 @@
+{
+  "message": "Gates listed successfully.",
+  "data": [
+    {
+      "id": "b8_1_synthetic_new_users",
+      "name": "b8_1_synthetic_new_users",
+      "description": "B8-1 eligibility. Only synthetic new users in this isolated project may enter the experiment. Production SDK environment required. Do not broaden this gate.",
+      "idType": "userID",
+      "lastModifierID": "47ve69D85ZB2UwdiCqz7Y1",
+      "lastModifiedTime": 1790184619499,
+      "lastModifierName": "CONSOLE API - [masked Console key]",
+      "lastModifierEmail": null,
+      "creatorID": "47ve69D85ZB2UwdiCqz7Y1",
+      "createdTime": 1790184619370,
+      "creatorName": "CONSOLE API - [masked Console key]",
+      "creatorEmail": null,
+      "targetApps": [],
+      "holdoutIDs": [],
+      "tags": [],
+      "owner": {
+        "ownerID": "47ve69D85ZB2UwdiCqz7Y1",
+        "ownerType": "SDK_KEY",
+        "ownerName": "CONSOLE API - [masked Console key]",
+        "ownerEmail": ""
+      },
+      "isEnabled": true,
+      "status": "In Progress",
+      "rules": [
+        {
+          "id": "3uqApeukhSA2jtSGwyGBph",
+          "baseID": "3uqApeukhSA2jtSGwyGBph",
+          "name": "Synthetic new users in production",
+          "passPercentage": 100,
+          "conditions": [
+            {
+              "type": "custom_field",
+              "targetValue": [
+                "b8_1"
+              ],
+              "operator": "any",
+              "field": "test_fixture"
+            },
+            {
+              "type": "custom_field",
+              "targetValue": [
+                "new"
+              ],
+              "operator": "any",
+              "field": "lifecycle"
+            },
+            {
+              "type": "environment_tier",
+              "targetValue": [
+                "production"
+              ],
+              "operator": "any"
+            }
+          ],
+          "environments": [
+            "production"
+          ]
+        }
+      ],
+      "checksPerHour": 32,
+      "type": "TEMPORARY",
+      "typeReason": "NONE",
+      "reviewSettings": {
+        "requiredReview": false,
+        "allowedReviewers": []
+      },
+      "measureMetricLifts": true,
+      "store0100Exposures": false,
+      "monitoringMetrics": [],
+      "permalink": "https://console.statsig.com/H7zq0iHv0scPEXRMGF1C3/gates/b8_1_synthetic_new_users",
+      "version": 3
+    }
+  ],
+  "pagination": {
+    "itemsPerPage": 100,
+    "pageNumber": 1,
+    "totalItems": 1,
+    "nextPage": null,
+    "previousPage": null,
+    "all": "/console/v1/gates"
+  }
+}

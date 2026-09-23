@@ -1,0 +1,12 @@
+{
+  "message": "Experiments listed successfully.",
+  "data": [],
+  "pagination": {
+    "itemsPerPage": 100,
+    "pageNumber": 1,
+    "totalItems": 0,
+    "nextPage": null,
+    "previousPage": null,
+    "all": "/console/v1/experiments"
+  }
+}

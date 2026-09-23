@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"results\": [],\n  \"appliedFilters\": {\n    \"category\": \"experiments\",\n    \"operationType\": \"write\",\n    \"permission\": \"read_only\"\n  },\n  \"hint\": \"No tools matched. Try broader words, remove a filter, or check the spelling; close typos are supported.\"\n}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 7
+}

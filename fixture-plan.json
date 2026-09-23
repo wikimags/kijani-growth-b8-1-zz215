@@ -1,0 +1,52 @@
+{
+  "task": "B8-1",
+  "project_id": "H7zq0iHv0scPEXRMGF1C3",
+  "project_name": "Kijani Growth Lab B8-1",
+  "status": "Fixture prepared. Scored run blocked pending connector write-tool preflight.",
+  "scenario": "Kijani is a fictional team-planning SaaS product. A guided onboarding checklist may increase first-workspace activation without increasing onboarding errors or support requests.",
+  "experiment_name": "b8_1_guided_onboarding",
+  "hypothesis": "A three-step onboarding checklist increases the share of eligible new users who create their first workspace, without increasing errors or requests for help.",
+  "unit_id": "userID",
+  "environment": "production within an isolated synthetic test project",
+  "allocation_percent": 5,
+  "groups": [
+    {
+      "name": "Control",
+      "size": 50,
+      "parameters": {
+        "onboarding_variant": "standard"
+      }
+    },
+    {
+      "name": "Guided checklist",
+      "size": 50,
+      "parameters": {
+        "onboarding_variant": "guided_checklist"
+      }
+    }
+  ],
+  "primary_event": "b8_1_workspace_created",
+  "guardrail_events": [
+    "b8_1_onboarding_error",
+    "b8_1_help_requested"
+  ],
+  "eligibility": "Synthetic B8-1 users only; no real production users",
+  "evidence_requirements": [
+    "Experiment absent before run",
+    "Eligibility gate and metric definitions",
+    "SDK instrumentation smoke test",
+    "Read back launched allocation and attached metrics",
+    "Real SDK-generated exposure events with experiment, group, user and time",
+    "Do not claim statistically significant lift from synthetic smoke traffic"
+  ],
+  "pending": [
+    "Reconnect Statsig in each test platform and confirm experiment write tools are available; direct MCP preflight reports conflicting permissions.",
+    "Do not begin scored run or pre-create the experiment until write access is confirmed."
+  ],
+  "eligibility_gate": "b8_1_synthetic_new_users",
+  "primary_metric": "b8_1_workspace_activation::event_user",
+  "guardrail_metrics": [
+    "b8_1_onboarding_error_rate::event_user",
+    "b8_1_help_request_rate::event_user"
+  ]
+}

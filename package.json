@@ -1,0 +1,17 @@
+{
+  "name": "statsig-b8-1",
+  "version": "1.0.0",
+  "description": "Synthetic Kijani Statsig experiment launch fixture",
+  "main": "index.js",
+  "scripts": {
+    "baseline": "node traffic.cjs baseline",
+    "smoke": "node traffic.cjs smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@statsig/statsig-node-core": "0.23.0"
+  }
+}

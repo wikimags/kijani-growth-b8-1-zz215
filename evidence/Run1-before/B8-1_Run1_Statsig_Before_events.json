@@ -1,0 +1,277 @@
+{
+  "message": "Event values listed successfully.",
+  "data": [
+    {
+      "timestamp": "1790184735149",
+      "name": "b8_1_help_requested",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0030",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735149",
+      "name": "b8_1_onboarding_error",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0030",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735149",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0030",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735149",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0028",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735149",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0026",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735149",
+      "name": "b8_1_help_requested",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0025",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0024",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0022",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_help_requested",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0020",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_onboarding_error",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0020",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0020",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0018",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0016",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735148",
+      "name": "b8_1_help_requested",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0015",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0014",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0012",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_help_requested",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0010",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_onboarding_error",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0010",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0010",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0008",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0006",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_help_requested",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0005",
+      "metadata": {
+        "phase": "baseline",
+        "fixture": "b8_1"
+      }
+    },
+    {
+      "timestamp": "1790184735147",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0004",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    },
+    {
+      "timestamp": "1790184735146",
+      "name": "b8_1_workspace_created",
+      "source": "statsig-server-core-node",
+      "value": "",
+      "userID": "b8_1_baseline_0002",
+      "metadata": {
+        "fixture": "b8_1",
+        "phase": "baseline"
+      }
+    }
+  ],
+  "pagination": {
+    "itemsPerPage": 100,
+    "pageNumber": 1,
+    "totalItems": 24,
+    "nextPage": null,
+    "previousPage": null,
+    "all": "/console/v1/events"
+  }
+}

@@ -1,0 +1,57 @@
+Event Name14 Day TrendYesterday's Event CountEvent DAU
+
+b8_1_workspace_created0-
+
+b8_1_help_requested0-
+
+b8_1_onboarding_error0-
+
+TimestampEventUser IDUser PropertiesValueMetadata
+
+Sep 23 20:32:15b8_1_help_requestedb8_1_baseline_0030{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_onboarding_errorb8_1_baseline_0030{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0030{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0028{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0026{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_help_requestedb8_1_baseline_0025{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0024{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0022{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_help_requestedb8_1_baseline_0020{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_onboarding_errorb8_1_baseline_0020{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0020{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0018{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0016{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_help_requestedb8_1_baseline_0015{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0014{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0012{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_help_requestedb8_1_baseline_0010{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_onboarding_errorb8_1_baseline_0010{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0010{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0008{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0006{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_help_requestedb8_1_baseline_0005{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"phase":"baseline","fixture":"b8_1"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0004{"custom":{"lifecycle":"new","test_fixture":"b8_1"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
+
+Sep 23 20:32:15b8_1_workspace_createdb8_1_baseline_0002{"custom":{"test_fixture":"b8_1","lifecycle":"new"},"statsigEnvironment":{"tier":"production"}}{"fixture":"b8_1","phase":"baseline"}
