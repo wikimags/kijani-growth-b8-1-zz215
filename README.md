@@ -25,6 +25,8 @@ The key successfully created metrics and the gate through the Console API. The M
 
 ## Evidence and traffic
 
+Connection update: local Codex now has an enabled, authenticated OAuth connection named `statsig-kijani`. Authentication succeeded, but write-tool availability still needs verification in a refreshed Codex session. See [connection troubleshooting](evidence/Run1-before/B8-1_Statsig_Connection_Troubleshooting.md). This does not yet clear the preflight blocker or establish Claude Code access.
+
 The [before evidence](evidence/Run1-before/) includes source configuration JSON, screenshots, received event rows, SDK checks and the exact MCP contradiction. Screenshots retain the original browser viewport; the CSV and JSON contain the complete field-level details. Statsig links require project access. Public files contain only synthetic data. Credentials are encrypted for the Windows account under `.private`, excluded from sharing.
 
 After launch, open `C:/Users/wikim/Documents/Codex/statsig-b8-1` and run `./run-traffic.ps1 -Mode smoke -Run Run1-after`. This uses the official SDK to evaluate 1,000 eligible users, two ineligible production users and one staging user. It logs real SDK exposures and synthetic outcomes, reports actual assignments, and flushes events. Confirm ingestion separately in Statsig's exposure stream for both groups. Do not require exactly 50 enrolled users or an exact equal sample split. The script refuses to check an experiment that does not exist.
